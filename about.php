@@ -38,7 +38,7 @@ if(isset($_SESSION['user_id'])){
    <div class="row">
 
       <div class="image">
-         <img src="images/about-img.svg" alt="">
+         <img src="images/about-img.jpg" alt="">
       </div>
 
       <div class="content">
@@ -60,21 +60,21 @@ if(isset($_SESSION['user_id'])){
    <div class="swiper-wrapper">
 
       <div class="swiper-slide slide">
-         <img src="images/pic-1.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <img src="images/pic-a.jpg" alt="">
+         <p>Best Quality sneakers. Would come next time too....</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Sandeep Maharjan</h3>
       </div>
 
       <div class="swiper-slide slide">
-         <img src="images/pic-2.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <img src="images/pic-b.jpg" alt="">
+         <p>Best sneaker site.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -82,12 +82,12 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Dev Aashish Gole</h3>
       </div>
 
       <div class="swiper-slide slide">
-         <img src="images/pic-3.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <img src="images/pic-c.jpg" alt="">
+         <p>Good choices and appreciable prices.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -95,12 +95,12 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Aayuz Shahi</h3>
       </div>
 
       <div class="swiper-slide slide">
-         <img src="images/pic-4.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <img src="images/pic-d.jpg" alt="">
+         <p>I Loved it...Would come next time too.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -108,12 +108,12 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Aashish Gole</h3>
       </div>
 
       <div class="swiper-slide slide">
-         <img src="images/pic-5.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <img src="images/pic-e.jpg" alt="">
+         <p>Loved it...</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -121,20 +121,20 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Basanta Adhikari</h3>
       </div>
 
       <div class="swiper-slide slide">
-         <img src="images/pic-6.png" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore distinctio hic, iusto adipisci a rerum nemo perspiciatis fugiat sapiente.</p>
+         <img src="images/pic-f.jpg" alt="">
+         <p>Good Quality.... I would give it 5 stars.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+            <i class="fas fa-star"></i>
          </div>
-         <h3>john deo</h3>
+         <h3>Bikesh Shakya</h3>
       </div>
 
    </div>
