@@ -2,13 +2,14 @@
 
 :root{
    --main-color:#2980b9;
-   --orange:#f39c12;
-   --red:#e74c3c;
+   --white:#f4f0eb;
+   --white:#ebe1e0;
    --black:#333;
    --white:#fff;
    --light-color:#666;
    --light-bg:#eee;
-   --border:.2rem solid var(--black);
+   --border:.2rem solid var(
+   --black);
    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
 
@@ -44,7 +45,7 @@ html{
 }
 
 body{
-   background-color: var(--light-bg);
+   background-color: yellowgreen;
 }
 
 section{
@@ -233,7 +234,7 @@ section{
 }
 
 .home-bg{
-   background:url(../images/Free-Vector-_-Stylish-white-background-with-diagonal-lines.png) no-repeat;
+   background:url(../images/bg.png) no-repeat;
    background-size: cover;
    background-position: center;
 }
@@ -264,13 +265,13 @@ section{
 
 .home-bg .home .slide .content span{
    font-size: 2rem;
-   color:var(--white);
+   color:black;
 }
 
 .home-bg .home .slide .content h3{
    margin-top: 1rem;
    font-size: 4rem;
-   color:var(--white);
+   color:black;
    text-transform: uppercase;
 }
 
@@ -418,6 +419,7 @@ section{
    align-items: center;
    gap:1.5rem;
    flex-wrap: wrap;
+   background-color: #ebe1e0;
 }
 
 .quick-view form .row .image-container{
