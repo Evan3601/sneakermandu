@@ -121,12 +121,12 @@ if(isset($_POST['update'])){
       <input type="hidden" name="old_image_03" value="<?= $fetch_products['image_03']; ?>">
       <div class="image-container">
          <div class="main-image">
-            <img src="../project_images/<?= $fetch_products['image_01']; ?>" alt="">
+            <img src="project_images/<?= $fetch_products['image_01']; ?>" alt="">
          </div>
          <div class="sub-image">
-            <img src="../project_images/<?= $fetch_products['image_01']; ?>" alt="">
-            <img src="../project_images/<?= $fetch_products['image_02']; ?>" alt="">
-            <img src="../project_images/<?= $fetch_products['image_03']; ?>" alt="">
+            <img src="project_images/<?= $fetch_products['image_01']; ?>" alt="">
+            <img src="project_images/<?= $fetch_products['image_02']; ?>" alt="">
+            <img src="project_images/<?= $fetch_products['image_03']; ?>" alt="">
          </div>
       </div>
       <span>update name</span>
