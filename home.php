@@ -22,10 +22,10 @@ include 'components/wishlist_cart.php';
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>home</title>
 
-   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
    
    <!-- font awesome cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="css/font_awesome/css/all.min.css">
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
@@ -114,7 +114,7 @@ include 'components/wishlist_cart.php';
       <h3></h3>
    </a>
 
-   <a href="category.php?category=Adidas" class="swiper-slide slide">
+   <a href="category.php?category=Vans" class="swiper-slide slide">
       <img src="images/VansLogo.png" alt="">
       <h3></h3>
    </a>
@@ -181,7 +181,7 @@ include 'components/wishlist_cart.php';
 
 <?php include 'components/footer.php'; ?>
 
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
 
 <script src="js/script.js"></script>
 
