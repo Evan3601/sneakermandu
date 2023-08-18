@@ -48,7 +48,7 @@ include 'components/wishlist_cart.php';
               <img src="images/NikeA.png" alt="">
          </div>
          <div class="content">
-            <span>upto 20% off</span>
+            <span>upto 15% off</span>
             <h3>Nike</h3>
             <a href="shop.php" class="btn">shop now</a>
          </div>
@@ -59,7 +59,7 @@ include 'components/wishlist_cart.php';
               <img src="images/ConverseA.png" alt="">
          </div>
          <div class="content">
-            <span>upto 20% off</span>
+            <span>upto 30% off</span>
             <h3>Converse</h3>
             <a href="shop.php" class="btn">shop now</a>
          </div>
@@ -115,7 +115,7 @@ include 'components/wishlist_cart.php';
    </a>
 
    <a href="category.php?category=Adidas" class="swiper-slide slide">
-      <img src="images/VansWoBgLogo.png" alt="">
+      <img src="images/VansLogo.png" alt="">
       <h3></h3>
    </a>
 
