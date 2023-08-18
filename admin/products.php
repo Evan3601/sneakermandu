@@ -69,9 +69,9 @@ if(isset($_GET['delete'])){
    $delete_product_image = $conn->prepare("SELECT * FROM `products` WHERE id = ?");
    $delete_product_image->execute([$delete_id]);
    $fetch_delete_image = $delete_product_image->fetch(PDO::FETCH_ASSOC);
-   unlink('project_images/'.$fetch_delete_image['image_01']);
-   unlink('project_images/'.$fetch_delete_image['image_02']);
-   unlink('project_images/'.$fetch_delete_image['image_03']);
+   unlink('../project_images/'.$fetch_delete_image['image_01']);
+   unlink('../project_images/'.$fetch_delete_image['image_02']);
+   unlink('../project_images/'.$fetch_delete_image['image_03']);
    $delete_product = $conn->prepare("DELETE FROM `products` WHERE id = ?");
    $delete_product->execute([$delete_id]);
    $delete_cart = $conn->prepare("DELETE FROM `cart` WHERE pid = ?");
@@ -92,7 +92,7 @@ if(isset($_GET['delete'])){
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>products</title>
 
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="../css/font_awesome/css/all.min.css">
 
    <link rel="stylesheet" href="../css/admin_style.css">
 
@@ -151,7 +151,7 @@ if(isset($_GET['delete'])){
          while($fetch_products = $select_products->fetch(PDO::FETCH_ASSOC)){ 
    ?>
    <div class="box">
-      <img src="project_images/<?= $fetch_products['image_01']; ?>" alt="">
+      <img src="../project_images/<?= $fetch_products['image_01']; ?>" alt="">
       <div class="name"><?= $fetch_products['name']; ?></div>
       <div class="price">Rs.<span><?= $fetch_products['price']; ?></span>/-</div>
       <div class="details"><span><?= $fetch_products['details']; ?></span></div>
